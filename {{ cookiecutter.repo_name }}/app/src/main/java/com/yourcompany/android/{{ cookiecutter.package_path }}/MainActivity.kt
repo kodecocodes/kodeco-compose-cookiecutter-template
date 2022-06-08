@@ -40,7 +40,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.yourcompany.composeapplication.ui.theme.ComposeApplicationTheme
+import {{ cookiecutter.full_package_namespace }}.ui.theme.{{ cookiecutter.repo_name }}Theme
 
 class MainActivity : ComponentActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {
@@ -49,7 +49,7 @@ class MainActivity : ComponentActivity() {
 
     super.onCreate(savedInstanceState)
     setContent {
-      ComposeApplicationTheme {
+      {{ cookiecutter.repo_name }}Theme {
         // A surface container using the 'background' color from the theme
         Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colors.background) {
           Greeting("Android")
@@ -67,7 +67,7 @@ fun Greeting(name: String) {
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
-  ComposeApplicationTheme {
+  {{ cookiecutter.repo_name }}Theme {
     Greeting("Android")
   }
 }
