@@ -34,10 +34,10 @@ plugins {
 }
 
 android {
-  compileSdk 32
+  compileSdk rootProject.ext.compileSdkVersion
 
   defaultConfig {
-    applicationId "com.yourcompany.composeapplication"
+    applicationId "{{ cookiecutter.full_package_namespace }}"
     minSdk rootProject.ext.minSdkVersion
     targetSdk rootProject.ext.targetSdkVersion
     versionCode 1

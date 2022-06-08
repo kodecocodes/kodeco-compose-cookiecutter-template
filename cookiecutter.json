@@ -1,5 +1,5 @@
 {  
-    "example_name": "Android Tutorial",
+    "example_name": "Android Compose Tutorial",
     "repo_name": "{{ cookiecutter.example_name | title | replace(' ', '') }}",
     "full_package_namespace": "com.yourcompany.android.{{ cookiecutter.example_name | lower | replace(' ', '') }}",
     "package_path": "{{ cookiecutter.repo_name | lower }}",

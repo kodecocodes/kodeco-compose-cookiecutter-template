@@ -28,7 +28,7 @@
  * THE SOFTWARE.
  */
 
-package com.yourcompany.composeapplication
+package {{ cookiecutter.full_package_namespace }}
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -31,7 +31,7 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.yourcompany.composeapplication">
+    package="{{ cookiecutter.full_package_namespace }}">
 
     <application
         android:allowBackup="false"
@@ -44,11 +44,6 @@
         android:theme="@style/SplashTheme"
         tools:ignore="GoogleAppIndexingWarning"
         tools:targetApi="31">
-        <activity
-            android:name=".MainActivity2"
-            android:exported="false"
-            android:label="@string/title_activity_main2"
-            android:theme="@style/SplashTheme" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
