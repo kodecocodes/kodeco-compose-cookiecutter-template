@@ -28,7 +28,7 @@
  * THE SOFTWARE.
  */
 
-package com.yourcompany.composeapplication.ui.theme
+package {{ cookiecutter.full_package_namespace }}.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
