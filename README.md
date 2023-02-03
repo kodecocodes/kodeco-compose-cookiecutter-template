@@ -1,6 +1,6 @@
 # RW Android Tutorial App Bootstrapping Template
 
-A [cookiecutter](https://github.com/cookiecutter/cookiecutter) :cookie: template for bootstrapping new Jetpack Compose Android Tutorial projects for raywenderlich.com!
+A [cookiecutter](https://github.com/cookiecutter/cookiecutter) :cookie: template for bootstrapping new Jetpack Compose Android Tutorial projects for Kodeco!
 
 ## Usage
 
@@ -20,19 +20,19 @@ Assuming you have `git` installed, there are two ways you can setup/configure th
 
     Simply execute the below one-liner command in your terminal.
     ```
-    cookiecutter gh:raywenderlich/rw-compose-cookiecutter-template
+    cookiecutter gh:kodecocodes/rw-compose-cookiecutter-template
     ````
 1. Via cloning this repository
 
     - using `https`
 
         ```bash
-        git clone https://github.com/raywenderlich/rw-compose-cookiecutter-template
+        git clone https://github.com/kodecocodes/rw-compose-cookiecutter-template
         ```
 
     - using `ssh`
         ```bash
-        git clone git@github.com:raywenderlich/rw-compose-cookiecutter-template.git
+        git clone git@github.com:kodecocodes/rw-compose-cookiecutter-template.git
         ```
 
     When done, run `cookiecutter` tool by passing in the template directory as an argument:
@@ -53,7 +53,7 @@ The process would look something like below:
 ## License
 
 ```
-Copyright (c) 2022 Razeware LLC
+Copyright (c) 2023 Kodeco Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
