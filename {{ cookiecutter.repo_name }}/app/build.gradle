@@ -5,7 +5,7 @@ plugins {
 
 android {
   compileSdk rootProject.ext.compileSdkVersion
-
+  namespace = "{{ cookiecutter.full_package_namespace }}"
   defaultConfig {
     applicationId "{{ cookiecutter.full_package_namespace }}"
     minSdk rootProject.ext.minSdkVersion
