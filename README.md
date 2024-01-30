@@ -1,4 +1,4 @@
-# RW Android Tutorial App Bootstrapping Template
+# Kodeco Android Tutorial App Bootstrapping Template
 
 A [cookiecutter](https://github.com/cookiecutter/cookiecutter) :cookie: template for bootstrapping new Jetpack Compose Android Tutorial projects for Kodeco!
 
@@ -14,31 +14,31 @@ brew install cookiecutter
 
 #### Step 2
 
-Assuming you have `git` installed, there are two ways you can setup/configure the RW Compose Tutorial App (Choose one):
+Assuming you have `git` installed, there are two ways you can setup/configure the Kodeco Compose Tutorial App (Choose one):
 
 1. Directly via `cookiecutter`. 
 
     Simply execute the below one-liner command in your terminal.
     ```
-    cookiecutter gh:kodecocodes/rw-compose-cookiecutter-template
+    cookiecutter gh:kodecocodes/kodeco-compose-cookiecutter-template
     ````
 1. Via cloning this repository
 
     - using `https`
 
         ```bash
-        git clone https://github.com/kodecocodes/rw-compose-cookiecutter-template
+        git clone https://github.com/kodecocodes/kodeco-compose-cookiecutter-template
         ```
 
     - using `ssh`
         ```bash
-        git clone git@github.com:kodecocodes/rw-compose-cookiecutter-template.git
+        git clone git@github.com:kodecocodes/kodeco-compose-cookiecutter-template.git
         ```
 
     When done, run `cookiecutter` tool by passing in the template directory as an argument:
 
     ```bash
-    cookiecutter rw-compose-cookiecutter-template/
+    cookiecutter kodeco-compose-cookiecutter-template/
     ```
 #### Step 3
 
