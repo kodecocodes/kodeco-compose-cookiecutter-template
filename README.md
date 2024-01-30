@@ -48,7 +48,7 @@ To accept the configuration option you see in brackets, simply hit Enter↵ or i
 
 The process would look something like below:
 
-![screenshot](screenshot.png)
+![screenshot](console.png)
 
 ## License
 
